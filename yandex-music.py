@@ -74,10 +74,8 @@ if __name__ == "__main__":
     author = input("Введите автора аудиофайла: ")
     custom_thumbnail_path = input("Введите путь к обложке (оставьте пустым для использования превью с YouTube): ")
 
-    output_path = "C:\\Users\\ivans\\Desktop\\"
+    # Путь к папке, где находится скрипт
+    output_path = os.path.dirname(os.path.abspath(__file__))
 
     download_youtube_audio_with_thumbnail(url, output_path, file_name, author, custom_thumbnail_path)
     print("Аудиофайл успешно сохранен.")
-
-    # Открытие браузера с указанным сайтом
-    webbrowser.open("https://music.yandex.ru/users/vanechsysoev/playlists/1027")
