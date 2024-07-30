@@ -17,7 +17,7 @@
 * Установите Python 3.x, если он еще не установлен.
 * Установите необходимые Python пакеты:
 ```
-pip install -r requirements.txt
+pip install ffmpeg-python mutagen requests yt-dlp
 ```
 * Убедитесь, что ffmpeg установлен и доступен в PATH вашей системы. Вы можете скачать его с [официального сайта FFmpeg](https://ffmpeg.org/download.html).
 
